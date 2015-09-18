@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 160.0, 100.0, 1250.0, 678.0 ],
+		"rect" : [ 617.0, 277.0, 1250.0, 678.0 ],
 		"bgcolor" : [ 0.509804, 0.627451, 0.666667, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 12.0, 4.5, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"disabled" : [ 0, 0, 0 ],
 					"id" : "obj-40",
 					"itemtype" : 0,
@@ -50,7 +62,7 @@
 					"patching_rect" : [ 1127.0, 9.0, 18.0, 50.0 ],
 					"size" : 3,
 					"style" : "",
-					"value" : 1
+					"value" : 2
 				}
 
 			}
@@ -1074,7 +1086,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.0, 347.0, 454.0, 22.0 ],
 									"style" : "",
-									"text" : "6 0.5 69.6 14.2 132.2 141. 152. 10. 0.718 0.435 0.643 0.843 4.736 203."
+									"text" : "3 10. 100. 12.7 138.1 139. 147. 10. 0.655 0.651 0.71 0.694 0.054 199."
 								}
 
 							}
@@ -9382,6 +9394,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
