@@ -183,7 +183,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 383.25, 594.0, 133.0, 22.0 ],
 					"style" : "",
-					"text" : "4 impact reset"
+					"text" : "4 sym reset"
 				}
 
 			}
@@ -198,7 +198,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.5, 594.0, 121.0, 22.0 ],
 					"style" : "",
-					"text" : "4 impact event"
+					"text" : "4 sym event"
 				}
 
 			}
@@ -1362,19 +1362,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Force In",
-					"id" : "obj-2",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.5, 38.0, 25.0, 25.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "tile index",
 					"id" : "obj-1",
 					"maxclass" : "inlet",
@@ -1501,15 +1488,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
