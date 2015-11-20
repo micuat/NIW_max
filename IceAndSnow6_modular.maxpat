@@ -1064,6 +1064,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -1140,9 +1141,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 49.0, 294.0, 66.0, 22.0 ],
+									"patching_rect" : [ 49.0, 294.0, 56.0, 22.0 ],
 									"style" : "",
-									"text" : "delay 0.01"
+									"text" : "delay \b10"
 								}
 
 							}
@@ -1619,7 +1620,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 484.062622, 639.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "2 snow"
+					"text" : "6 none"
 				}
 
 			}
@@ -1761,7 +1762,7 @@
 					"presentation_rect" : [ 171.0, 28.0, 18.0, 98.0 ],
 					"size" : 6,
 					"style" : "",
-					"value" : 2
+					"value" : 0
 				}
 
 			}
@@ -1780,7 +1781,7 @@
 					"presentation_rect" : [ 494.0, 28.0, 18.0, 98.0 ],
 					"size" : 6,
 					"style" : "",
-					"value" : 0
+					"value" : 2
 				}
 
 			}
@@ -2744,7 +2745,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 587.0, 454.0, 22.0 ],
 									"style" : "",
-									"text" : "2 0.1 31.4 41.9 116.9 99. 152. 99. 0.325 0.475 0.643 0.843 0.108 203."
+									"text" : "0 10. 100. 12.7 138.1 139. 147. 10. 0.655 0.651 0.71 0.694 0.054 199."
 								}
 
 							}
@@ -4597,6 +4598,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
