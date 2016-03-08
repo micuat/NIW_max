@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.5, 246.0, 29.5, 22.0 ],
+					"patching_rect" : [ 194.5, 246.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 301.0, 275.0, 29.5, 22.0 ],
+					"patching_rect" : [ 226.0, 275.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "&&"
 				}
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 380.0, 213.5, 41.0, 22.0 ],
+					"patching_rect" : [ 305.0, 213.5, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "> 100"
 				}
@@ -82,7 +82,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 213.5, 89.0, 22.0 ],
+					"patching_rect" : [ 203.0, 213.5, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "r LAZY_trigger"
 				}
@@ -95,7 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 106.5, 89.0, 33.0 ],
+					"patching_rect" : [ 296.0, 106.5, 89.0, 33.0 ],
 					"style" : "",
 					"text" : "FSR value for lazy trigger"
 				}
@@ -107,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 107.0, 76.0, 20.0 ],
+					"patching_rect" : [ 445.0, 113.0, 76.0, 20.0 ],
 					"style" : "",
 					"text" : "naive trigger"
 				}
@@ -121,7 +121,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 148.5, 30.0, 30.0 ],
+					"patching_rect" : [ 305.0, 148.5, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 139.0, 30.0, 30.0 ],
+					"patching_rect" : [ 445.0, 148.5, 30.0, 30.0 ],
 					"style" : ""
 				}
 
