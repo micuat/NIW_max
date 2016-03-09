@@ -869,7 +869,21 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 84.0, 72.0, 56.0, 22.0 ],
+									"style" : "",
+									"text" : "delay 20"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -3229,6 +3243,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-97", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
@@ -3687,7 +3710,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
@@ -4259,7 +4282,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 484.062622, 639.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "6 none"
+					"text" : "1 snow"
 				}
 
 			}
@@ -4363,7 +4386,7 @@
 					"presentation_rect" : [ 16.5, 28.0, 18.0, 98.0 ],
 					"size" : 6,
 					"style" : "",
-					"value" : 0
+					"value" : 2
 				}
 
 			}
@@ -4401,7 +4424,7 @@
 					"presentation_rect" : [ 171.0, 28.0, 18.0, 98.0 ],
 					"size" : 6,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -5314,7 +5337,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 557.0, 44.0, 1363.0, 811.0 ],
+						"rect" : [ 523.0, 79.0, 1363.0, 811.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5350,7 +5373,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 281.0, 376.0, 34.0, 20.0 ],
+									"patching_rect" : [ 281.0, 376.0, 34.0, 22.0 ],
 									"style" : "",
 									"text" : "gate"
 								}
@@ -5380,7 +5403,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 528.0, 464.0, 50.0, 20.0 ],
+									"patching_rect" : [ 528.0, 464.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5396,7 +5419,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 441.0, 465.0, 50.0, 20.0 ],
+									"patching_rect" : [ 441.0, 465.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5412,7 +5435,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 335.0, 462.0, 50.0, 20.0 ],
+									"patching_rect" : [ 335.0, 462.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5428,7 +5451,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 235.0, 459.0, 50.0, 20.0 ],
+									"patching_rect" : [ 235.0, 459.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5444,7 +5467,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.0, 457.0, 50.0, 20.0 ],
+									"patching_rect" : [ 128.0, 457.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5460,7 +5483,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 28.0, 456.0, 50.0, 20.0 ],
+									"patching_rect" : [ 28.0, 456.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5476,7 +5499,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 429.0, 288.0, 50.0, 20.0 ],
+									"patching_rect" : [ 429.0, 288.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5492,7 +5515,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 296.0, 287.0, 50.0, 20.0 ],
+									"patching_rect" : [ 296.0, 287.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -5506,7 +5529,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 295.0, 221.0, 76.0, 20.0 ],
+									"patching_rect" : [ 295.0, 221.0, 76.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack 0. 0."
 								}
@@ -5521,7 +5544,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 600.0, 640.0, 149.0, 20.0 ],
+									"patching_rect" : [ 600.0, 640.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /niw/ice/reshatter"
 								}
@@ -5536,7 +5559,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 495.0, 598.0, 149.0, 20.0 ],
+									"patching_rect" : [ 495.0, 598.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /niw/ice/reshatter"
 								}
@@ -5551,7 +5574,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 392.0, 562.0, 149.0, 20.0 ],
+									"patching_rect" : [ 392.0, 562.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /niw/ice/reshatter"
 								}
@@ -5566,7 +5589,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 288.0, 532.0, 149.0, 20.0 ],
+									"patching_rect" : [ 288.0, 532.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /niw/ice/reshatter"
 								}
@@ -5581,7 +5604,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 506.0, 149.0, 20.0 ],
+									"patching_rect" : [ 185.0, 506.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /niw/ice/reshatter"
 								}
@@ -5596,7 +5619,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 81.0, 479.0, 149.0, 20.0 ],
+									"patching_rect" : [ 81.0, 479.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /niw/ice/reshatter"
 								}
@@ -5611,7 +5634,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 81.0, 193.0, 121.0, 20.0 ],
+									"patching_rect" : [ 81.0, 193.0, 121.0, 22.0 ],
 									"style" : "",
 									"text" : "route /niw/ice/shatter"
 								}
@@ -5626,7 +5649,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 228.0, 37.0, 333.0, 62.0 ],
+									"patching_rect" : [ 228.0, 37.0, 333.0, 60.0 ],
 									"style" : "",
 									"text" : "If this computer controls the first row, then it is also the machine that relays shatter msgs to the other computers.  This way, only 1 IP address needs to be specified in the IceCracking code."
 								}
@@ -5641,7 +5664,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.0, 64.0, 135.0, 20.0 ],
+									"patching_rect" : [ 70.0, 64.0, 135.0, 22.0 ],
 									"style" : "",
 									"text" : "if $i1 == 1 then 1 else 0"
 								}
@@ -5656,7 +5679,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.0, 38.0, 37.0, 20.0 ],
+									"patching_rect" : [ 70.0, 38.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "r row"
 								}
@@ -5671,7 +5694,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 70.0, 93.0, 62.0, 20.0 ],
+									"patching_rect" : [ 70.0, 93.0, 62.0, 22.0 ],
 									"style" : "",
 									"text" : "select 0 1"
 								}
@@ -5686,7 +5709,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 114.0, 127.0, 61.0, 18.0 ],
+									"patching_rect" : [ 114.0, 127.0, 61.0, 22.0 ],
 									"style" : "",
 									"text" : "port 8004"
 								}
@@ -5701,7 +5724,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 127.0, 61.0, 18.0 ],
+									"patching_rect" : [ 29.0, 127.0, 61.0, 22.0 ],
 									"style" : "",
 									"text" : "port 8000"
 								}
@@ -5744,7 +5767,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 296.0, 332.0, 63.0, 20.0 ],
+									"patching_rect" : [ 296.0, 332.0, 63.0, 22.0 ],
 									"style" : "",
 									"text" : "pack 0. 0."
 								}
@@ -5758,7 +5781,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 538.0, 160.0, 20.0 ],
+									"patching_rect" : [ 81.0, 538.0, 160.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 192.168.5.81 8003"
 								}
@@ -5772,7 +5795,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 185.0, 570.0, 160.0, 20.0 ],
+									"patching_rect" : [ 185.0, 570.0, 160.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 192.168.5.82 8003"
 								}
@@ -5786,7 +5809,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 288.0, 606.0, 160.0, 20.0 ],
+									"patching_rect" : [ 288.0, 606.0, 160.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 192.168.5.83 8003"
 								}
@@ -5800,7 +5823,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 392.0, 640.0, 160.0, 20.0 ],
+									"patching_rect" : [ 392.0, 640.0, 160.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 192.168.5.84 8003"
 								}
@@ -5814,7 +5837,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 495.0, 670.0, 160.0, 20.0 ],
+									"patching_rect" : [ 495.0, 670.0, 160.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 192.168.5.85 8003"
 								}
@@ -5828,7 +5851,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 600.0, 707.0, 160.0, 20.0 ],
+									"patching_rect" : [ 600.0, 707.0, 160.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 192.168.5.86 8003"
 								}
@@ -5843,7 +5866,7 @@
 									"numinlets" : 7,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 81.0, 425.0, 640.0, 20.0 ],
+									"patching_rect" : [ 81.0, 425.0, 640.0, 22.0 ],
 									"style" : "",
 									"text" : "route 1 2 3 4 5 6"
 								}
@@ -5858,7 +5881,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 81.0, 166.0, 99.0, 20.0 ],
+									"patching_rect" : [ 81.0, 166.0, 99.0, 22.0 ],
 									"style" : "",
 									"text" : "udpreceive 8000"
 								}
